@@ -1,4 +1,16 @@
 
-h3 {
-    color: blue;
-   }
+h3:nth-child(1){
+    color:pink;
+}
+div ~ p{
+    color: green;
+}
+#greycol{
+    color: grey;
+}
+.yellow{
+    color: yellow;
+}
+div>div>p{
+    color: red;
+}
